@@ -2,10 +2,12 @@
 
 class Persona{
     public $aparencia;
+    public $cor;
     private $tipo;
 
     public function __construct (){
-        $this->aparencia = "Bbl";
+        $this->aparencia = "B";
+        $this->cor = "Br";
     }
 
     public function getAparencia(){
@@ -16,11 +18,18 @@ class Persona{
     }
 
 
+    public function getCor(){
+        return $this->cor;
+    }
+    public function setCor($c){
+        $this->cor = $c;
+    }
+
     public function getTipo(){
         return $this -> tipo;
     }
     public function setTipo($t){
         $this->tipo = $t;
     }
-    
+
 }
