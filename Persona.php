@@ -6,8 +6,8 @@ class Persona{
     private $tipo;
 
     public function __construct (){
-        $this->aparencia = "B";
-        $this->cor = "Br";
+        $this->aparencia = "A";
+        $this->cor = "Red";
     }
 
     public function getAparencia(){
